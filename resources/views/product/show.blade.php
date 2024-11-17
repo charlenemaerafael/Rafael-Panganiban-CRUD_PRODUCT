@@ -55,11 +55,10 @@
                 <form action="{{ route('product.destroy', $product->id) }}" method="POST" class="inline-block">
                     @csrf
                     @method('DELETE')
-                    <button type="submit" 
-                            class="bg-[#FF477E] text-white px-4 py-2 rounded-lg shadow-md hover:bg-pink-800 font-bold transition duration-300">
+                    <button type="submit" class="bg-[#FF477E] text-white px-4 py-2 rounded-lg shadow-md hover:bg-pink-800 font-bold transition duration-300">
                         DELETE
                     </button>
-                </form>
+                </form>                
             </div>
         </div>
     </div>
